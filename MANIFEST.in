@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include global_settings *.css
+recursive-include global_settings *.csv
+recursive-include global_settings *.html
+recursive-include global_settings *.ico
+recursive-include global_settings *.js
+recursive-include global_settings *.json
+recursive-include global_settings *.md
+recursive-include global_settings *.png
+recursive-include global_settings *.py
+recursive-include global_settings *.svg
+recursive-include global_settings *.txt
+recursive-exclude global_settings *.pyc
